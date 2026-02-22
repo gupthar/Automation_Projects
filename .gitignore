@@ -1,10 +1,15 @@
-# Byte-compiled / optimized / DLL files
+.venv/
+__pycache__/
+.pytest_cache/
+.vscode/
+.env
+dist/
+build/
+*.egg-info/
 __pycache__/
 *.py[codz]
 *$py.class
 
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
